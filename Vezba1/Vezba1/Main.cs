@@ -1,4 +1,6 @@
-﻿namespace Vezba1
+﻿using Vezba1.Models;
+
+namespace Vezba1
 {
     /// <summary>
     /// Main class where we will do all the logic.
@@ -10,6 +12,9 @@
         /// </summary>
         public void Initialize()
         {
+            FirstClass firstClass = new FirstClass();
+            SecondClass secondClass = new SecondClass();
+
 
         }
     }
