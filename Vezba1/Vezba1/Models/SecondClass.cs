@@ -5,6 +5,10 @@
         public string Name { get; set; }
         public string Surname { get; set; }
 
+        public  SecondClass()
+        {
+
+        }
         public SecondClass(string dataFromString)
         {
             string[] tokens = dataFromString.Split(';');
