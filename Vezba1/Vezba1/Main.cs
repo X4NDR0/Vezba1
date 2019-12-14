@@ -13,7 +13,10 @@ namespace Vezba1
         public void Initialize()
         {
             FirstClass firstClass = new FirstClass();
-            SecondClass secondClass = new SecondClass();
+
+            SecondClass secondClass1 = new SecondClass();
+
+            SecondClass secondClass2 = new SecondClass("Petar;Petrovic");
 
 
         }
