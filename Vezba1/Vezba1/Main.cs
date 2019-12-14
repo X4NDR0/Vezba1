@@ -16,9 +16,12 @@ namespace Vezba1
 
             SecondClass secondClass1 = new SecondClass();
 
+            secondClass1.Name = "Petar";
+            secondClass1.Surname = "Petrovic";
+
             SecondClass secondClass2 = new SecondClass("Petar;Petrovic");
 
-
+            SecondClass secondClass3 = new SecondClass(1,2);
         }
     }
 }
